@@ -130,3 +130,77 @@ body{
   }
 }
 /* header styles end */
+
+
+/* hero styles start */
+.hero{
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 650px;
+  background-image: url(../images/bacraund2x.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.hero-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 ;
+}
+.hero__wrapper{
+  padding-top: 153px;
+  align-items: center;
+}
+.hero__wrapper-title{
+  width: 468px;
+  height: 112px;
+  margin: 0;
+  padding-left: 165px;
+  font-family: 'Space Mono',monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: var(--header-bg-color);
+}
+.hero_wrapper-abaut{
+  display: flex;
+}
+.abaut-line__img{
+  padding-top: 88px;
+  margin-right: 57px;
+}
+.hero-abaut-description{
+  width: 370px;
+  height: 100px;
+  margin-right: 40px;
+  padding-top: 25px;
+  font-size: 15px;
+  line-height: 25px;
+  color:var(--header-bg-color);
+}
+.abaut-arrow__img{
+  padding-top:88px ;
+}
+.hero-btn{
+  width: 180px;
+  height: 53px;
+  margin-top: 25px;
+  background-color: var(--main-button-color);
+  border: none;
+  cursor: pointer;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--header-bg-color);
+}
+.hero-btn:hover{
+  border: 3px solid var(--main-button-color);
+  background-color: var(--header-bg-color);
+  color: var(--main-button-color); 
+}
+/* hero styles end */
