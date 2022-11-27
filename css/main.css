@@ -206,6 +206,74 @@ a {
   background-color: var(--header-bg-color);
   color: var(--main-button-color); 
 }
+@media only screen and (max-width: 1490px){
+  .hero{
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 1110px){
+  .hero{
+    background-position: right;
+  }
+  .hero-container{
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .hero{
+    background-position: right;
+  }
+  .hero-container{
+    text-align: center;
+  }
+  .hero-abaut-description{
+    margin: 0 200px;
+  }
+  .abaut-line__img{
+    display: none;
+  }
+  .hero_wrapper-abaut{
+    display:inline;
+    text-align: center;
+  }
+  .abaut-arrow__img{
+    padding: 5px;
+    margin-left: -525px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .hero{
+    background-size: cover;
+    height: 800px;
+  }
+  .hero-container{
+    width: 98%;
+  }
+  .hero_wrapper-abaut{
+    display:inline;
+    text-align: center;
+  }
+  .hero__wrapper-title{
+    width: 330px;
+    height: 120px;
+    margin-left: -150px;
+  }
+  .hero-abaut-description{
+    width: 311px;
+    height: 125px;
+    margin-top: 30px;
+    margin-left:-1px;
+    padding-left: 22px;
+  }
+  .hero-btn{
+    margin-top: 40px;
+  }
+  .abaut-arrow__img{
+    /* margin-top: -35px; */
+    padding-bottom: 100px;
+  }
+}
+
 /* hero styles end */
 
 
@@ -382,3 +450,63 @@ a {
   top: 240px;
 }
 /* main styles end */
+/* footer styles start */
+.site-footer{
+  height: 300px;
+  margin-top: 307px;
+  background-image: url(../images/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-wrapper{
+  padding-top: 102px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper-title{
+  width: 400px;
+  height: 96px;
+  margin: 0;
+  font-family: 'Space Mono',monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+.footer-wrapper-logo{
+  padding-top: 20px;
+  display: flex;
+  gap: 18px;
+}
+.site-footer-end{
+  background-color:var(--footer-button-color);
+}
+.site-footer-right{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-navbar{
+  margin-left: 58px;
+}
+.footer-navbar-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 30px;
+  list-style: none;
+}
+.footer-navbar-link{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--nav-text-color);
+  text-decoration: none;
+}
+.footer-navbar-link:hover{
+  color: var(--main-button-color);
+}
