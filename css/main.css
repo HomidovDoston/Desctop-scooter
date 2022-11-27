@@ -46,7 +46,14 @@ body{
     font-family: "lexand-deca", "Arial",sans-serif;
     font-weight: 400;
 }
+ul {
+  padding-left: 0;
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+}
 
 /* header styles start */
 .site-header__wrapper{
@@ -134,9 +141,6 @@ body{
 
 /* hero styles start */
 .hero{
-  top: 0;
-  right: 0;
-  left: 0;
   height: 650px;
   background-image: url(../images/bacraund2x.jpg);
   background-repeat: no-repeat;
@@ -145,7 +149,6 @@ body{
 .hero-container{
   width: 100%;
   margin: 0 auto;
-  padding: 0 ;
 }
 .hero__wrapper{
   padding-top: 153px;
@@ -190,7 +193,7 @@ body{
   background-color: var(--main-button-color);
   border: none;
   cursor: pointer;
-  font-family: 'Space Mono';
+  font-family: 'Space Mono',monospace;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -204,3 +207,178 @@ body{
   color: var(--main-button-color); 
 }
 /* hero styles end */
+
+
+/* main styles start */
+.site-main{
+  top: 0;
+  background-color: var(--header-bg-color);
+}
+.main-container{
+  width: 100%;
+  margin: 0 auto;
+}
+.scooter-section{
+  width: 974px;
+  height: 15px;
+  margin-top: 208px;
+  display: flex;
+  background-color: var(--main-shadow-color);
+}
+.section-nav{
+  margin-left: 165px;
+  margin-top: -55.5px;
+}
+.section-nav-list{
+  display: flex;
+  gap: 45px;
+}
+.item-text-title{
+  width: 320px;
+  height: 28px;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: var(--main-title-color);
+}
+.item-text-description{
+  width: 320px;
+  height: 100px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--nav-text-color);
+}
+/* first section styles start */
+.first-section{
+  margin-top: 476px;
+  margin-left: 165px;
+  display: flex;
+}
+.first-section-text{
+  width: 445px;
+}
+.first-section-title{
+  width: 430px;
+  height: 96px;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--main-title-color);
+}
+.first-section-description{
+  width: 445px;
+  height: 100px;
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--nav-text-color);
+}
+.first-section-btn{
+  width: 180px;
+  height: 53px;
+  margin-top: 40px;
+  border: none;
+  background-color: var(--main-button-color);
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--header-bg-color);
+}
+.first-section-btn:hover{
+  border: 3px solid var(--main-button-color);
+  background-color: var(--header-bg-color);
+  color: var(--main-button-color);  
+}
+.first-section-bg__img{
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.first-section-arrow{
+  position: relative;
+  left: 620px;
+  
+}
+.first-section__img-right{
+  margin-left: 64px;
+}
+/* first section styles end */
+.second-section{
+  margin-top: 135px;
+}
+.second-section__wrapper{
+  display: flex;
+  gap: 220px;
+}
+.second-section-start{
+  display: flex;
+  gap: 64px;
+} 
+.second-section-circle{
+  position: relative;
+  top: 155px;
+}
+/* secon section styles end */
+/* third section styles start */
+.third-section-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.third-section-text{
+  margin-left: 165px;
+}
+.third-section-end{
+  display: flex;
+  gap: 64px;
+}
+.third-section-title{
+  width: 445px;
+  height: 96px;
+  font-family: 'Space Mono',monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--main-title-color);
+}
+.third-section-description{
+  width: 445px;
+  height: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--nav-text-color);
+}
+.third-section-btn{
+  width: 180px;
+  height: 53px;
+  border: none;
+  background-color: var(--main-button-color);
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--header-bg-color);
+}
+.third-section-payment-img{
+    border-radius: 50%;
+}
+.third-section-arrow{
+  position: relative;
+  left: 1158px;
+  top: 240px;
+}
+/* main styles end */
